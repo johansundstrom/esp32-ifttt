@@ -2,7 +2,7 @@
 Generera händelser från ESP32 till IFTTT
 
 ## Planen
-ESP32 svarar på en händelse (larm) med att skicka en notis
+ESP32 svarar på en händelse (larm) med att skicka en notis till mobilen
 
 ## IFTTT
 * If Thit Then That (IFTTT)
