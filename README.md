@@ -134,4 +134,4 @@ void loop()
 }
 ```
 
-Ladda up och testa
+Ladda upp och testa
