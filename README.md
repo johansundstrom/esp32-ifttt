@@ -148,7 +148,10 @@ Fundera över...
 #include <Wire.h>
 #include "SSD1306.h" 
 
-SSD1306  display(0x3c, 21, 22);
+const int mySDA = 21;
+const int mySCL = 22;
+
+SSD1306 display(0x3c, mySDA, mySCL);
 
 void setup() {
   display.init();
