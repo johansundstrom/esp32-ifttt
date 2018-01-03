@@ -26,14 +26,18 @@ ESP32 svarar på en händelse (larm) med att skicka en notis
 5. I steg 2(6) - Skapa _Event Name_ "ESP_says". _Create_
 6. I steg 3(6) - Klicka på _+that_ och välj _Notifications_
 7. I steg 4(6) - Klicka på blå rutan
-8. I steg 5(6) - Redigera rutans innehåll så att det står: ```{{OccurredAt}} - {{EventName}} field1 = {{Value1}}```. Klicka _Create action_
+8. I steg 5(6) - Redigera rutans innehåll så att det står: ```{{OccurredAt}} - {{EventName}}: field1 = {{Value1}}```. Klicka _Create action_
 9. I steg 6(6) - _Finish_
 10. Surfa till adressen ```https://ifttt.com/maker_webhooks```
 11. Klicka _Documentation_ uppe till höger
 
-<img src="https://github.com/johansundstrom/esp32-ifttt/blob/master/images/ifttt_01.jpg" width="200">
+<img src="https://github.com/johansundstrom/esp32-ifttt/blob/master/images/ifttt_01.jpg" width="400">
 
-
+12. I rutan för {event} - skriv ```ESP_says```
+13. I _value1_ skriv ett slumpmässigt värde
+14. Installera appen IFTTT i telefonen, logga in
+15. Klicka _Test It_
+16. Kolla telefonen
 
 ## ESP32
 1. Skapa en sketch från WiFiClient (ur ESP32's exempel)
