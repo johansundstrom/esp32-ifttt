@@ -135,3 +135,9 @@ void loop()
 ```
 
 Ladda upp och testa
+
+## Use Case
+Fundera över...
+* Vad kan trigga?
+* Vad kan hända?
+* Vad ska hända?
