@@ -30,7 +30,7 @@ ESP32 svarar på en händelse (larm) med att skicka en notis
 9. I steg 6(6) - _Finish_
 10. Surfa till adressen ```https://ifttt.com/maker_webhooks```
 11. Klicka _Documentation_ uppe till höger
-12.
+<img src="images/ifttt_01.jpg width="200">
 
 
 
