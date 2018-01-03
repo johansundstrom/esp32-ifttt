@@ -141,3 +141,22 @@ Fundera över...
 * Vad kan trigga?
 * Vad kan hända?
 * Vad ska hända?
+
+## OLED?
+
+```c
+#include <Wire.h>
+#include "SSD1306.h" 
+
+SSD1306  display(0x3c, 21, 22);
+
+void setup() {
+  display.init();
+  //display.flipScreenVertically();
+  display.drawString(0, 0, "Johan Sundström");
+  display.display();
+}
+
+void loop() {
+}
+```
