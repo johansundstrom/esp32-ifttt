@@ -5,7 +5,7 @@ Generera händelser från ESP32 till IFTTT
 ESP32 svarar på en händelse (larm) med att skicka en notis till mobilen
 
 ## IFTTT
-* If Thit Then That (IFTTT)
+* If This Then That (IFTTT)
 * Sambandscentral mellan alla applikationers API
 * _This_ kan exempelvis vara...
   * en tid
