@@ -18,7 +18,7 @@ ESP32 svarar på en händelse (larm) med att skicka en notis till mobilen
   * ett mail
   * en ny cell i ett kalkylark
   * ett inlägg i sociala medier
-* 
+
 1. Skapa konto på IFTTT
 2. Gå till _My Applets_
 3. Klicka på _+this_
