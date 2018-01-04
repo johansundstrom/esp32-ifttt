@@ -19,6 +19,7 @@ ESP32 svarar på en händelse (larm) med att skicka en notis till mobilen
   * en ny cell i ett kalkylark
   * ett inlägg i sociala medier
 
+### Sätt upp applet
 1. Skapa konto på IFTTT
 2. Gå till _My Applets_
 3. Klicka på _+this_
@@ -28,6 +29,8 @@ ESP32 svarar på en händelse (larm) med att skicka en notis till mobilen
 7. I steg 4(6) - Klicka på blå rutan
 8. I steg 5(6) - Redigera rutans innehåll så att det står: ```{{OccurredAt}} - {{EventName}}: field1 = {{Value1}}```. Klicka _Create action_
 9. I steg 6(6) - _Finish_
+
+### Testa att trigga appleten
 10. Surfa till adressen ```https://ifttt.com/maker_webhooks```
 11. Klicka _Documentation_ uppe till höger
 
@@ -40,10 +43,10 @@ ESP32 svarar på en händelse (larm) med att skicka en notis till mobilen
 16. Kolla telefonen
 
 ## ESP32
-Vi modifierar sketch'en från WiFiClient (ur ESP32's exempel) lite.
+Vi modifierar sketch'en WiFiClient lite från Arduino (ur ESP32's exempel).
 
 #### Initiering...
-```c
+```c++
 #include <WiFi.h>
 
 const char* ssid     = "XXXXXXXXXXX";
@@ -56,7 +59,7 @@ const char* key = "ZZZZZZZZZZZZZZZZZZZZZ";
 ```
 
 #### Setup...
-```c
+```c++
 void setup()
 {
     Serial.begin(115200);
@@ -83,7 +86,7 @@ void setup()
 
 #### Loopen...
 
-```c
+```c++
 void loop()
 {
     delay(5000);
@@ -144,7 +147,7 @@ Fundera över...
 
 ## OLED?
 
-```c
+```c++
 #include <Wire.h>
 #include "SSD1306.h" 
 
