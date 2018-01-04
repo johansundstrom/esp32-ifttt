@@ -56,6 +56,7 @@ const int   httpPort = 80;
 const char* host = "maker.ifttt.com";
 const char* event = "ESP_says";
 const char* key = "ZZZZZZZZZZZZZZZZZZZZZ";
+const char* value1 = "Johan Sundström";
 ```
 
 #### Setup...
@@ -107,7 +108,7 @@ void loop()
     url += event;
     url += "/with/key/";
     url += key;
-    url += "?value1=Johan";
+    url += "?value1=" + value1;
 
     Serial.print("Requesting URL: ");
     Serial.println(url);
